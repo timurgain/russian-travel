@@ -4,6 +4,8 @@
   max-width: 90%;
 }
 
-@media screen and (min-width: 768px) {
-
+@media screen and (min-width: 1280px) {
+  .lead {
+    max-width: 76.8%;
+  }
 }

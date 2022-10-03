@@ -3,7 +3,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1184px;
   min-height: 640px;
   width: 100%;
 
@@ -30,4 +29,10 @@
 
 .cover__background:hover::before {
   background-color: rgba(42, 44, 47, .8);
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__background {
+    min-height: 740px;
+  }
 }

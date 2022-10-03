@@ -1,0 +1,14 @@
+.footer__link {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.12;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  transition: color .2s linear;
+  margin: 0 18px 0 0;
+}
+
+.footer__link:hover {
+  color: rgba(255, 255, 255, .8);
+}

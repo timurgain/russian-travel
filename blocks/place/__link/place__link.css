@@ -5,5 +5,10 @@
   font-size: 18px;
   line-height: 1.22;
   text-decoration-line: underline;
-  color: #FFFFFF;
+  color: rgba(255, 255, 255, 1);
+  transition: color .2s linear;
+}
+
+.place__link:hover {
+  color: rgba(255, 255, 255, .8);
 }

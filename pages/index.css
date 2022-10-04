@@ -41,11 +41,3 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-/* header, main, footer {
-  outline: red dotted 1px;
-}
-
-div, svg, img, h1, h2, h3, p, ul, ol, a {
-  outline: green dotted 1px
-} */

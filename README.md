@@ -1,23 +1,26 @@
-# Проект: Путешествие по России
+# Russian travel web page
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+## Description
 
-**Интро**
+The project gives practice in web developing and talks about beautiful, but not so popular destinations for tourism in Russia.
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+## Technologies
 
-**Figma**
+- HTML5 and semantic tags;
+- CSS3 and grid layout, flexbox, adaptive, @media, @font-face;
+- Block Element Modifier methodology.
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+## Installation and launch
 
-**Картинки**
+Clone repository and navigate to folder on command line:
+```
+git clone ...
+```
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
+```
+cd russian-travel
+```
 
-Удачи!
+```
+open index.html
+```

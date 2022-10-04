@@ -9,3 +9,21 @@
 .place:last-child {
   margin: 0;
 }
+
+@media screen
+  and (min-width: 768px)
+  and (max-width: 1023px) {
+  .place {
+    margin: 0 0 73px 0;
+  }
+}
+
+@media screen
+  and (max-width: 767px) {
+    .place {
+      margin: 0 0 50px 0;
+
+      grid-template-columns: 100%;
+      row-gap: 32px;
+    }
+  }

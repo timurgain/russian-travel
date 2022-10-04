@@ -6,6 +6,13 @@
   text-align: center;
   font-family: "inter", sans-serif;
   font-size: 96px;
-  font-weight: bold;
-  line-height: 100px;
+  font-weight: 900;
+  line-height: 1.04;
 }
+
+@media screen
+  and (max-width: 767px) {
+    .lead__title {
+      max-width: 90%;
+    }
+  }

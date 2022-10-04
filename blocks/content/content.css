@@ -4,3 +4,10 @@
   row-gap: 92px;
   padding: 48px 0 0 0;
 }
+
+@media screen
+  and (max-width: 767px) {
+  .content {
+    row-gap: 64px;
+  }
+}

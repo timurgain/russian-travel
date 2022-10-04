@@ -18,3 +18,10 @@
     max-width: 93.75%;
   }
 }
+
+@media screen
+  and (max-width: 767px) {
+    .places {
+      max-width: 100%;
+    }
+  }

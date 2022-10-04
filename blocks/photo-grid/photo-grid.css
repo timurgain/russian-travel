@@ -13,6 +13,7 @@
   .photo-grid {
     max-width: 92.5%;
     grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
   }
 }
 
@@ -22,5 +23,15 @@
   .photo-grid {
     max-width: 93.75%;
     grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+@media screen
+  and (max-width: 767px) {
+  .photo-grid {
+    max-width: 90%;
+    grid-template-columns: 1fr;
+    gap: 12px;
   }
 }

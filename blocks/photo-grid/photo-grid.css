@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 14px;
-
   padding: 0;
   margin: 0 auto;
   max-width: 90%;
@@ -17,9 +16,7 @@
   }
 }
 
-@media screen
-  and (min-width: 768px)
-  and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .photo-grid {
     max-width: 93.75%;
     grid-template-columns: repeat(2, 1fr);
@@ -27,8 +24,7 @@
   }
 }
 
-@media screen
-  and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .photo-grid {
     max-width: 90%;
     grid-template-columns: 1fr;

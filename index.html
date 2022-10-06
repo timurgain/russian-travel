@@ -13,8 +13,10 @@
   <!-- Шапка сайта, flexbox сетка -->
   <header class="header">
     <img class="header__logo" src="./images/header-logo.svg" alt="Логотип в форме очертания карты России">
-    <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
-    <a class="header__lang-link" href="#">En</a>
+    <ul class="header__lang-links">
+      <li><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
+      <li><a class="header__lang-link" href="#">En</a></li>
+    </ul>
   </header>
 
   <!-- Контент сайта - Flex с row-gap -->
@@ -24,8 +26,10 @@
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</p>
-      <img class="lead__image" src="./images/lead-polka.jpg" alt="Фото внутри вагона на боковушку.">
-      <p class="lead__caption">ваша полка — верхняя</p>
+      <figure class="lead__figure">
+        <img class="lead__image" src="./images/lead-polka.jpg" alt="Фото внутри вагона на боковушку.">
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+      </figure>
     </section>
 
     <!-- Секция intro -->
@@ -54,19 +58,21 @@
     </section>
 
     <!-- Секция photo-grid -->
-    <section class="photo-grid" aria-label="Пейзажи России">
-      <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Из окна поезда">
-      <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="С неба на горы">
-      <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Собака на стоге сена">
-      <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="Горы и лес">
-      <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="Колесо на прозрачном льду">
-      <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="Песчаный пляж Байкала">
-      <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="Вид на Эльбрус">
-      <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="Знак пешеходного перехода">
-      <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="Горы Камчатки">
-      <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Равнина и вулкан Камчатки">
-      <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Скалистый берег Байкала">
-      <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Вид сверху на горы Ергаки">
+    <section aria-label="Пейзажи России">
+      <ul class="photo-grid">
+        <li><img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Из окна поезда"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="С неба на горы"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Собака на стоге сена"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="Горы и лес"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="Колесо на прозрачном льду"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="Песчаный пляж Байкала"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="Вид на Эльбрус"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="Знак пешеходного перехода"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="Горы Камчатки"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Равнина и вулкан Камчатки"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Скалистый берег Байкала"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Вид сверху на горы Ергаки"></li>
+      </ul>
     </section>
 
     <!-- Секция places -->

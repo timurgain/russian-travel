@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 48% 1fr;
   column-gap: 32px;
   row-gap: 48px;
   margin: 0 0 80px 0;
@@ -10,8 +10,17 @@
   margin: 0;
 }
 
+@media screen and (min-width: 1280px) {
+  .place {
+    grid-template-columns: 46.8% 1fr;
+    column-gap: 40px;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
+    grid-template-columns: 47.2% 1fr;
+    column-gap: 28px;
     margin: 0 0 73px 0;
   }
 }

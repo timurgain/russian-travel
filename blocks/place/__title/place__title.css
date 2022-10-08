@@ -19,6 +19,6 @@
     margin: 0 5%;
     font-size: 32px;
     line-height: 1.09;
-
+    max-width: min-content;
   }
 }

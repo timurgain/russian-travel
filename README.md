@@ -4,7 +4,7 @@
 
 The project gives practice in web developing and talks about beautiful, but not so popular destinations for tourism in Russia.
 
-[Link on the GitHub Pages](https://timurgain.github.io/russian-travel/)
+[Click to view site on GitHub Pages](https://timurgain.github.io/russian-travel/)
 
 ## Technologies
 
